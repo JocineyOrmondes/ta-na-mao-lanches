@@ -44,7 +44,7 @@ header nav a {
 .hero {
 
   background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("assets/img/lanche.png") center/cover no-repeat;
+    url("/assets/img/lanche.png") center/cover no-repeat;
   min-height: 550px;
   display: flex;
   align-items: center;
