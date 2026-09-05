@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tá na Mão Lanches</title>
+    <link rel="stylesheet" href="/style.css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="/js/carrossel.js" defer></script>
+    <script src="/js/validacao.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header fixo -->
+    <header>
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="Logo Tá na Mão Lanches"width="100" height="auto">
+        </div>
+        <div class="logo">
+            <h1>TÁ NA MÃO LANCHES</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#formulario">Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>O lanche saboroso que chega até você!</h2>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="beneficios">
+        <br>
+        <br>
+        <h2>Por que escolher nossa lanches?</h2>
+        <div class="cards">
+            <div class="card"><img src="/assets/img/desenho.png"width="80" height="auto">
+                <p>Ingredientes frescos</p>
+            </div>
+            <div class="card"><img src="/assets/img/entrega.png"width="110" height="auto">
+                <p>Entrega rápida</p>
+            </div>
+            <div class="card"><img src="/assets/img/Sabor.png"width="100" height="auto">
+                <p>Sabor irresistível</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cardápio -->
+    <section id="cardapio" class="cardapio">
+        <br>
+        <br>
+        <h2>Nossos Lanches</h2>
+        <div class="tags">
+            <span>X-Burger</span>
+            <span>X-Salada</span>
+            <span>X-Bacon</span>
+            <span>X-Tudo</span>
+            <span>Vegetariano</span>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <br>
+        <br>
+        <h2>O que dizem nossos clientes</h2>
+        <div class="cliente">
+            <img src="/assets/img/joao.png" alt="Cliente João">
+            <p>"Entrega super rápida e lanche delicioso!"</p>
+            <strong>João</strong>
+            <img src="/assets/img/maria.png" alt="Cliente Maria">
+            <p>"Os lanches chegam quentinhos e com muito sabor. Recomendo demais!"</p>
+            <strong>Maria</strong>
+            <img src="/assets/img/pedro.png" alt="Cliente Pedro">
+            <p>"Virou meu lugar favorito para pedir lanche."</p>
+            <strong>Pedro</strong>
+            <img src="/assets/img/ana.png" alt="Cliente Ana">
+            <p>"O hambúrguer é delicioso e os ingredientes são frescos."</p>
+            <strong>Ana</strong>
+            <img src="/assets/img/gustavo.png" alt="Cliente Gustavo">
+            <p>"Preço justo, qualidade excelente e entrega pontual."</p>
+            <strong>Gustavo</strong>
+        </div>
+        <div class="botoes">
+            <button>Anterior</button>
+            <button>Próximo</button>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+<section id="formulario" class="formulario">
+  <br><br>
+  <h2>Peça já o seu lanche!</h2>
+
+  <form id="pedidoForm" action="obrigado.html" method="post">
+    <input type="text" name="nome" placeholder="Nome completo" required>
+    <input type="tel" name="telefone" placeholder="Telefone" required>
+    <input type="text" name="endereco" placeholder="Endereço de entrega" required>
+
+    <select name="lanche" required>
+      <option value="">Escolha o lanche</option>
+      <option value="X-Burger">X-Burger</option>
+      <option value="X-Salada">X-Salada</option>
+      <option value="X-Bacon">X-Bacon</option>
+      <option value="X-Tudo">X-Tudo</option>
+      <option value="Vegetariano">Vegetariano</option>
+    </select>
+
+    <div class="pagamento">
+      <h3>Forma de pagamento:</h3>
+      <div class="opcoes-pagamento">
+        <label><input type="radio" name="pagamento" value="Dinheiro" required> Dinheiro</label>
+        <label><input type="radio" name="pagamento" value="Cartão"> Cartão</label>
+        <label><input type="radio" name="pagamento" value="Pix"> Pix</label>
+      </div>
+      
+    <div class="adicionais">
+      <h3>Adicionais:</h3>
+      <div class="opcoes-adicionais">
+        <label><input type="checkbox" name="batata"> Batata frita</label>
+        <label><input type="checkbox" name="bebida"> Bebida</label>
+      </div>
+    </div>
+
+    <div>
+      <button type="submit">Enviar Pedido</button>
+    </div>
+  </form>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Tá na Mão Lanches © 2026 - Todos os direitos reservados</p>
+        <div class="social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+    </footer>
+
+</body>
+
+</html>
