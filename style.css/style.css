@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -41,9 +40,10 @@ header nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), 
-              url("assets/img/lanche 01.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("assets/img/lanche.jpg") center/cover no-repeat;
   min-height: 550px;
   display: flex;
   align-items: center;
@@ -56,12 +56,15 @@ header nav a {
   box-sizing: border-box;
 }
 
-.hero h1, .hero p, .hero div {
+.hero h1,
+.hero p,
+.hero div {
   font-size: inherit;
   margin: 0;
   max-width: 100%;
   word-break: break-word;
 }
+
 .beneficios {
   text-align: center;
   padding: 40px 20px;
@@ -192,6 +195,7 @@ header nav a {
   font-size: 18px;
   text-align: center;
 }
+
 .opcoes-pagamento,
 .opcoes-adicionais {
   display: flex;
@@ -209,6 +213,7 @@ header nav a {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   flex-wrap: wrap;
 }
+
 .opcoes-pagamento label,
 .opcoes-adicionais label {
   display: inline-flex;
@@ -219,6 +224,7 @@ header nav a {
   cursor: pointer;
   white-space: nowrap;
 }
+
 .opcoes-pagamento input[type="radio"],
 .opcoes-adicionais input[type="checkbox"] {
   width: auto !important;
@@ -331,10 +337,11 @@ footer .social i {
     font-size: 1.15em;
     padding: 40px 15px;
   }
+
   .opcoes-pagamento,
   .opcoes-adicionais {
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     padding: 15px 25px;
     gap: 12px;
   }
@@ -342,7 +349,7 @@ footer .social i {
   .opcoes-pagamento label,
   .opcoes-adicionais label {
     width: 100%;
-    font-size: 16px; 
+    font-size: 16px;
   }
 
   .cards {
